@@ -1,0 +1,33 @@
+ARM GAS  /tmp/ccACwzFY.s 			page 1
+
+
+   1              	# 1 "first.S"
+   1              	@
+   1              	...
+   0              	
+   0              	
+   1              	/* Copyright (C) 1991-2016 Free Software Foundation, Inc.
+   2              	@My first assembly language program
+   3              	@ Name:Spencer Cassetta
+   4              	@
+   5              	.text
+   6              	.global first
+   7              	.global second
+   8              	first:
+   9 0000 0010A0E1 	  mov r1, r0
+  10 0004 010080E0 	  add r0, r0, r1
+  11 0008 010080E0 	  add r0, r0, r1
+  12 000c 1EFF2FE1 	  bx lr
+  13              	
+  14              	second:
+  15 0010 010080E0 	  add r0, r0, r1
+  16 0014 1EFF2FE1 	  bx lr
+ARM GAS  /tmp/ccACwzFY.s 			page 2
+
+
+DEFINED SYMBOLS
+             first.S:8      .text:00000000 first
+             first.S:14     .text:00000010 second
+             first.S:9      .text:00000000 $a
+
+NO UNDEFINED SYMBOLS
