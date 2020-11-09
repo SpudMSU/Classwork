@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Checkers</string>
+    <string name="buttonDone">Done</string>
+    <string name="buttonRes">Resign</string>
+    <string name="checkersBoard">Picture of checkers board</string>
+    <string name="player1">Player 1 Enter Name</string>
+    <string name="player2">Player 2 Enter Name</string>
+    <string name="startButton">Play</string>
+    <string name="winner">Player X is the winner!</string>
+    <string name="loser">Player Z is the loser!</string>
+    <string name="newGame">New Game</string>
+    <string name="controlsDesc">Controls: select the piece to move then select the square to move it. </string>
+    <string name="greenPlayer"> is Green. </string>
+    <string name="whitePlayer"> is White. </string>
+    <string name="turn">It is Player</string>
+    <string name="turnC">turn</string>
+    <string name="first"> goes first. Select done to end turn or resign to forfeit</string>
+    <string name="instructions">Instructions</string>
+    <string name="player1Win">Has Won! Press the Done Button to Continue</string>
+    <string name="endGame">Game Over</string>
+    <string name="nothing">No Player Names</string>
+    <string name="emptytext">Empty player names. Please enter valid player names.</string>
+    <string name="playeroneempty">Player One needs an input. Please enter a player name.</string>
+    <string name="playertwoempty">Player two needs an input. Please enter a player name.</string>
+    <string name="isWinner"> is the winner!</string>
+    <string name="isLoser"> is the loser!</string>
+    <string name="invalid"> Invalid Move</string>
+    <string name="invalidMsg"> Invalid Move! Please Select One of The Green Squares</string>
+    <string name="howto">How to Play</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    tools:context=".CheckerActivity">
+
+    <edu.msu.cassett8.checkers.CheckersView
+        android:id="@+id/checkersView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".55"
+        android:background="#ccc"
+        app:exampleString="Hello, CheckersView" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="Done"
+            android:text="@string/buttonDone" />
+
+        <TextView
+            android:id="@+id/turnText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/turn" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="Resign"
+            android:text="@string/buttonRes" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onStartGame"
+            android:text="@string/howto" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+Project 1 Submission
+
+Group Name:   Team 22
+
+When you have completed the project, complete the following form and include it with your project. Include this file as a text file in the folder with your project when you turn it in. 
+
+
+Member 1: Spencer Duncan Cassetta
+
+Responsiblity: Created the git repository and made the base projects. Created the chessboard activity and drew the pieces in.
+
+helped delete jumped pieces
+drew availableMoves squares
+Deleted jumped pieces
+saved & loaded game from bundle
+handled the turns, done & resign buttons
+handled win conditions
+
+
+Member 2: George Basim Pauls
+
+Responsiblity: Helped display and draw all the pieces into the correct place. Made the main activiy layout.
+
+Spawned correct availableSpots when each checker is clicked
+Made movement for pieces and king's
+made peice be highlighted when selected
+helped delete jumped pieces
+
+
+Member 3: Justin Hieu Tu
+
+Responsiblity: Created all the acitivites and implament all the transactions between each activity. Made the winning layout.
+
+Made condition for king piece
+created base functions
+made instructions dialog
+made main page not accept null names
+saved names of players to display later
